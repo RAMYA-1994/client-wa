@@ -75,7 +75,7 @@ function LoginData({ history }) {
 
 
 
-const LoginWithRouter = withRouter(LoginData);
+const LoginWithRouter = (LoginData);
 
 
 export default function LoadLoginPage() {
