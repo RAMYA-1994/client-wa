@@ -1,5 +1,5 @@
 import { WiDaySnowWind } from "react-icons/wi";
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 

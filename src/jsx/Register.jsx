@@ -1,6 +1,6 @@
 import { WiDaySnowWind } from "react-icons/wi";
 import axios from 'axios';
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, {useState } from 'react';
 
 import "../css/Home.css"
@@ -60,7 +60,7 @@ function RegisterData({ history }) {
   )
 }
 
-const RegisterWithRouter = withRouter(RegisterData);
+const RegisterWithRouter = (RegisterData);
 
 
 export default function LoadRegisterPage() {
